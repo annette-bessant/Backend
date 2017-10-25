@@ -1,0 +1,353 @@
+2017-10-21 22:54:55 [127.0.0.1][-][285a96b1eee1e9d82e385fd2b94f0785][error][ParseError] ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in C:\MAMP\htdocs\village-green\backend\controllers\SiteController.php:78
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\control...')
+#1 [internal function]: spl_autoload_call('backend\\control...')
+#2 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Module.php(633): class_exists('backend\\control...')
+#3 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('')
+#5 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#6 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\MAMP\htdocs\village-green\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-10-21 22:54:55 [127.0.0.1][-][285a96b1eee1e9d82e385fd2b94f0785][info][application] $_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'advanced-frontend' => 'e3fe8f8cf1583542d7ea0b106e6ff501'
+    '_csrf-frontend' => '6b476cd67e683c30139cd30196fab347540ade551d7df4c666ebbf0142d7e36ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ç¯í¶I7>1H<É|¯»EàÎ[\";ê	}ƒÁÔàv0‚ç\";}'
+    'advanced-backend' => '285a96b1eee1e9d82e385fd2b94f0785'
+    '_csrf-backend' => 'd35d6680f7fd69b591f40ab3c8cbda1578f0afaa866d83f5ede0b848190b6785a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"–ÌÅ\'«ÜŸ\"åY=„\\/JYVQÎ~è«ðïŽãG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/village-green/backend/web/'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WevQPwoBbsAAADlIvVYAAAA-'
+    'HTTP_ACCEPT' => 'text/html, application/xhtml+xml, image/jxr, */*'
+    'HTTP_REFERER' => 'http://localhost/village-green/backend/'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; advanced-frontend=e3fe8f8cf1583542d7ea0b106e6ff501; _csrf-frontend=6b476cd67e683c30139cd30196fab347540ade551d7df4c666ebbf0142d7e36ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%C7%AF%ED%B6I7%3E1H%3C%C9%81%7C%AF%BBE%E0%CE%5B%22%3B%EA%09%7D%83%C1%D4%E0v0%82%E7%22%3B%7D; advanced-backend=285a96b1eee1e9d82e385fd2b94f0785; _csrf-backend=d35d6680f7fd69b591f40ab3c8cbda1578f0afaa866d83f5ede0b848190b6785a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%96%CC%C5%0C%27%AB%1F%10%DC%9F%22%E5Y%3D%0E%84%5C%2FJYVQ%CE%7E%E8%AB%F0%EF%8E%E3%81G%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\MAMP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Ruby24-x64\\bin;C:\\Users\\anbes\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\anbes\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\anbes\\AppData\\Local\\atom\\bin;C:\\Users\\anbes\\AppData\\Roaming\\Composer\\vendor\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2e mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.1.5 mod_perl/2.0.8 Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/MAMP/htdocs'
+    'SERVER_ADMIN' => 'testemail@test.com'
+    'SCRIPT_FILENAME' => 'C:/MAMP/htdocs/village-green/backend/web/index.php'
+    'REMOTE_PORT' => '61301'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/village-green/backend/web/'
+    'SCRIPT_NAME' => '/village-green/backend/web/index.php'
+    'PHP_SELF' => '/village-green/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1508626495.877
+    'REQUEST_TIME' => 1508626495
+]
+2017-10-21 23:01:41 [127.0.0.1][-][285a96b1eee1e9d82e385fd2b94f0785][error][ParseError] ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in C:\MAMP\htdocs\village-green\backend\controllers\SiteController.php:43
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\control...')
+#1 [internal function]: spl_autoload_call('backend\\control...')
+#2 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Module.php(633): class_exists('backend\\control...')
+#3 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('')
+#5 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#6 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\MAMP\htdocs\village-green\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-10-21 23:01:41 [127.0.0.1][-][285a96b1eee1e9d82e385fd2b94f0785][info][application] $_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'advanced-frontend' => 'e3fe8f8cf1583542d7ea0b106e6ff501'
+    '_csrf-frontend' => '6b476cd67e683c30139cd30196fab347540ade551d7df4c666ebbf0142d7e36ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ç¯í¶I7>1H<É|¯»EàÎ[\";ê	}ƒÁÔàv0‚ç\";}'
+    'advanced-backend' => '285a96b1eee1e9d82e385fd2b94f0785'
+    '_csrf-backend' => 'd35d6680f7fd69b591f40ab3c8cbda1578f0afaa866d83f5ede0b848190b6785a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"–ÌÅ\'«ÜŸ\"åY=„\\/JYVQÎ~è«ðïŽãG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/village-green/backend/web/'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WevR1AoBbsAAADlIvVgAAAA@'
+    'HTTP_ACCEPT' => 'text/html, application/xhtml+xml, image/jxr, */*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; advanced-frontend=e3fe8f8cf1583542d7ea0b106e6ff501; _csrf-frontend=6b476cd67e683c30139cd30196fab347540ade551d7df4c666ebbf0142d7e36ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%C7%AF%ED%B6I7%3E1H%3C%C9%81%7C%AF%BBE%E0%CE%5B%22%3B%EA%09%7D%83%C1%D4%E0v0%82%E7%22%3B%7D; advanced-backend=285a96b1eee1e9d82e385fd2b94f0785; _csrf-backend=d35d6680f7fd69b591f40ab3c8cbda1578f0afaa866d83f5ede0b848190b6785a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%96%CC%C5%0C%27%AB%1F%10%DC%9F%22%E5Y%3D%0E%84%5C%2FJYVQ%CE%7E%E8%AB%F0%EF%8E%E3%81G%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\MAMP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Ruby24-x64\\bin;C:\\Users\\anbes\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\anbes\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\anbes\\AppData\\Local\\atom\\bin;C:\\Users\\anbes\\AppData\\Roaming\\Composer\\vendor\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2e mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.1.5 mod_perl/2.0.8 Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/MAMP/htdocs'
+    'SERVER_ADMIN' => 'testemail@test.com'
+    'SCRIPT_FILENAME' => 'C:/MAMP/htdocs/village-green/backend/web/index.php'
+    'REMOTE_PORT' => '61314'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/village-green/backend/web/'
+    'SCRIPT_NAME' => '/village-green/backend/web/index.php'
+    'PHP_SELF' => '/village-green/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1508626900.979
+    'REQUEST_TIME' => 1508626900
+]
+2017-10-21 23:06:50 [127.0.0.1][-][285a96b1eee1e9d82e385fd2b94f0785][error][ParseError] ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in C:\MAMP\htdocs\village-green\backend\controllers\SiteController.php:43
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\control...')
+#1 [internal function]: spl_autoload_call('backend\\control...')
+#2 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Module.php(633): class_exists('backend\\control...')
+#3 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('')
+#5 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#6 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\MAMP\htdocs\village-green\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-10-21 23:06:50 [127.0.0.1][-][285a96b1eee1e9d82e385fd2b94f0785][info][application] $_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'advanced-frontend' => 'e3fe8f8cf1583542d7ea0b106e6ff501'
+    '_csrf-frontend' => '6b476cd67e683c30139cd30196fab347540ade551d7df4c666ebbf0142d7e36ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ç¯í¶I7>1H<É|¯»EàÎ[\";ê	}ƒÁÔàv0‚ç\";}'
+    'advanced-backend' => '285a96b1eee1e9d82e385fd2b94f0785'
+    '_csrf-backend' => 'd35d6680f7fd69b591f40ab3c8cbda1578f0afaa866d83f5ede0b848190b6785a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"–ÌÅ\'«ÜŸ\"åY=„\\/JYVQÎ~è«ðïŽãG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/village-green/backend/web/'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WevTCgoBbsAAADlIvVoAAAA-'
+    'HTTP_ACCEPT' => 'text/html, application/xhtml+xml, image/jxr, */*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; advanced-frontend=e3fe8f8cf1583542d7ea0b106e6ff501; _csrf-frontend=6b476cd67e683c30139cd30196fab347540ade551d7df4c666ebbf0142d7e36ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%C7%AF%ED%B6I7%3E1H%3C%C9%81%7C%AF%BBE%E0%CE%5B%22%3B%EA%09%7D%83%C1%D4%E0v0%82%E7%22%3B%7D; advanced-backend=285a96b1eee1e9d82e385fd2b94f0785; _csrf-backend=d35d6680f7fd69b591f40ab3c8cbda1578f0afaa866d83f5ede0b848190b6785a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%96%CC%C5%0C%27%AB%1F%10%DC%9F%22%E5Y%3D%0E%84%5C%2FJYVQ%CE%7E%E8%AB%F0%EF%8E%E3%81G%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\MAMP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Ruby24-x64\\bin;C:\\Users\\anbes\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\anbes\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\anbes\\AppData\\Local\\atom\\bin;C:\\Users\\anbes\\AppData\\Roaming\\Composer\\vendor\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2e mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.1.5 mod_perl/2.0.8 Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/MAMP/htdocs'
+    'SERVER_ADMIN' => 'testemail@test.com'
+    'SCRIPT_FILENAME' => 'C:/MAMP/htdocs/village-green/backend/web/index.php'
+    'REMOTE_PORT' => '61326'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/village-green/backend/web/'
+    'SCRIPT_NAME' => '/village-green/backend/web/index.php'
+    'PHP_SELF' => '/village-green/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1508627210.013
+    'REQUEST_TIME' => 1508627210
+]
+2017-10-21 23:08:26 [127.0.0.1][-][285a96b1eee1e9d82e385fd2b94f0785][error][ParseError] ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in C:\MAMP\htdocs\village-green\backend\controllers\SiteController.php:28
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\control...')
+#1 [internal function]: spl_autoload_call('backend\\control...')
+#2 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Module.php(633): class_exists('backend\\control...')
+#3 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('')
+#5 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#6 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\MAMP\htdocs\village-green\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-10-21 23:08:26 [127.0.0.1][-][285a96b1eee1e9d82e385fd2b94f0785][info][application] $_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'advanced-frontend' => 'e3fe8f8cf1583542d7ea0b106e6ff501'
+    '_csrf-frontend' => '6b476cd67e683c30139cd30196fab347540ade551d7df4c666ebbf0142d7e36ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ç¯í¶I7>1H<É|¯»EàÎ[\";ê	}ƒÁÔàv0‚ç\";}'
+    'advanced-backend' => '285a96b1eee1e9d82e385fd2b94f0785'
+    '_csrf-backend' => 'd35d6680f7fd69b591f40ab3c8cbda1578f0afaa866d83f5ede0b848190b6785a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"–ÌÅ\'«ÜŸ\"åY=„\\/JYVQÎ~è«ðïŽãG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/village-green/backend/web/'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WevTagoBbsAAADlIvVwAAAA-'
+    'HTTP_ACCEPT' => 'text/html, application/xhtml+xml, image/jxr, */*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; advanced-frontend=e3fe8f8cf1583542d7ea0b106e6ff501; _csrf-frontend=6b476cd67e683c30139cd30196fab347540ade551d7df4c666ebbf0142d7e36ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%C7%AF%ED%B6I7%3E1H%3C%C9%81%7C%AF%BBE%E0%CE%5B%22%3B%EA%09%7D%83%C1%D4%E0v0%82%E7%22%3B%7D; advanced-backend=285a96b1eee1e9d82e385fd2b94f0785; _csrf-backend=d35d6680f7fd69b591f40ab3c8cbda1578f0afaa866d83f5ede0b848190b6785a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%96%CC%C5%0C%27%AB%1F%10%DC%9F%22%E5Y%3D%0E%84%5C%2FJYVQ%CE%7E%E8%AB%F0%EF%8E%E3%81G%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\MAMP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Ruby24-x64\\bin;C:\\Users\\anbes\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\anbes\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\anbes\\AppData\\Local\\atom\\bin;C:\\Users\\anbes\\AppData\\Roaming\\Composer\\vendor\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2e mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.1.5 mod_perl/2.0.8 Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/MAMP/htdocs'
+    'SERVER_ADMIN' => 'testemail@test.com'
+    'SCRIPT_FILENAME' => 'C:/MAMP/htdocs/village-green/backend/web/index.php'
+    'REMOTE_PORT' => '61328'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/village-green/backend/web/'
+    'SCRIPT_NAME' => '/village-green/backend/web/index.php'
+    'PHP_SELF' => '/village-green/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1508627306.275
+    'REQUEST_TIME' => 1508627306
+]
+2017-10-21 23:09:01 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/ in C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#1 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#2 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\MAMP\htdocs\village-green\backend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\MAMP\htdocs\village-green\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-10-21 23:09:01 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'advanced-frontend' => 'e3fe8f8cf1583542d7ea0b106e6ff501'
+    '_csrf-frontend' => '6b476cd67e683c30139cd30196fab347540ade551d7df4c666ebbf0142d7e36ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ç¯í¶I7>1H<É|¯»EàÎ[\";ê	}ƒÁÔàv0‚ç\";}'
+    'advanced-backend' => '285a96b1eee1e9d82e385fd2b94f0785'
+    '_csrf-backend' => 'd35d6680f7fd69b591f40ab3c8cbda1578f0afaa866d83f5ede0b848190b6785a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"–ÌÅ\'«ÜŸ\"åY=„\\/JYVQÎ~è«ðïŽãG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/village-green/backend/web/'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WevTjQoBbsAAADlIvV4AAAA-'
+    'HTTP_ACCEPT' => 'text/html, application/xhtml+xml, image/jxr, */*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; advanced-frontend=e3fe8f8cf1583542d7ea0b106e6ff501; _csrf-frontend=6b476cd67e683c30139cd30196fab347540ade551d7df4c666ebbf0142d7e36ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%C7%AF%ED%B6I7%3E1H%3C%C9%81%7C%AF%BBE%E0%CE%5B%22%3B%EA%09%7D%83%C1%D4%E0v0%82%E7%22%3B%7D; advanced-backend=285a96b1eee1e9d82e385fd2b94f0785; _csrf-backend=d35d6680f7fd69b591f40ab3c8cbda1578f0afaa866d83f5ede0b848190b6785a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%96%CC%C5%0C%27%AB%1F%10%DC%9F%22%E5Y%3D%0E%84%5C%2FJYVQ%CE%7E%E8%AB%F0%EF%8E%E3%81G%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\MAMP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Ruby24-x64\\bin;C:\\Users\\anbes\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\anbes\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\anbes\\AppData\\Local\\atom\\bin;C:\\Users\\anbes\\AppData\\Roaming\\Composer\\vendor\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2e mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.1.5 mod_perl/2.0.8 Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/MAMP/htdocs'
+    'SERVER_ADMIN' => 'testemail@test.com'
+    'SCRIPT_FILENAME' => 'C:/MAMP/htdocs/village-green/backend/web/index.php'
+    'REMOTE_PORT' => '61331'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/village-green/backend/web/'
+    'SCRIPT_NAME' => '/village-green/backend/web/index.php'
+    'PHP_SELF' => '/village-green/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1508627341.859
+    'REQUEST_TIME' => 1508627341
+]
+2017-10-21 23:56:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/ in C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#1 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#2 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\MAMP\htdocs\village-green\backend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\MAMP\htdocs\village-green\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\MAMP\htdocs\village-green\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-10-21 23:56:00 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'advanced-frontend' => 'e3fe8f8cf1583542d7ea0b106e6ff501'
+    '_csrf-frontend' => '6b476cd67e683c30139cd30196fab347540ade551d7df4c666ebbf0142d7e36ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ç¯í¶I7>1H<É|¯»EàÎ[\";ê	}ƒÁÔàv0‚ç\";}'
+    'advanced-backend' => '285a96b1eee1e9d82e385fd2b94f0785'
+    '_csrf-backend' => 'd35d6680f7fd69b591f40ab3c8cbda1578f0afaa866d83f5ede0b848190b6785a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"–ÌÅ\'«ÜŸ\"åY=„\\/JYVQÎ~è«ðïŽãG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/village-green/backend/web/'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WevekAoBbsAAADlIvV8AAAA-'
+    'HTTP_ACCEPT' => 'text/html, application/xhtml+xml, image/jxr, */*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; advanced-frontend=e3fe8f8cf1583542d7ea0b106e6ff501; _csrf-frontend=6b476cd67e683c30139cd30196fab347540ade551d7df4c666ebbf0142d7e36ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%C7%AF%ED%B6I7%3E1H%3C%C9%81%7C%AF%BBE%E0%CE%5B%22%3B%EA%09%7D%83%C1%D4%E0v0%82%E7%22%3B%7D; advanced-backend=285a96b1eee1e9d82e385fd2b94f0785; _csrf-backend=d35d6680f7fd69b591f40ab3c8cbda1578f0afaa866d83f5ede0b848190b6785a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%96%CC%C5%0C%27%AB%1F%10%DC%9F%22%E5Y%3D%0E%84%5C%2FJYVQ%CE%7E%E8%AB%F0%EF%8E%E3%81G%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\MAMP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Ruby24-x64\\bin;C:\\Users\\anbes\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\anbes\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\anbes\\AppData\\Local\\atom\\bin;C:\\Users\\anbes\\AppData\\Roaming\\Composer\\vendor\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2e mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.1.5 mod_perl/2.0.8 Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/MAMP/htdocs'
+    'SERVER_ADMIN' => 'testemail@test.com'
+    'SCRIPT_FILENAME' => 'C:/MAMP/htdocs/village-green/backend/web/index.php'
+    'REMOTE_PORT' => '61493'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/village-green/backend/web/'
+    'SCRIPT_NAME' => '/village-green/backend/web/index.php'
+    'PHP_SELF' => '/village-green/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1508630160.682
+    'REQUEST_TIME' => 1508630160
+]
